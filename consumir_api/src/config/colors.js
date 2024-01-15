@@ -6,4 +6,5 @@ export const errorColor = `#C3073F`;
 export const warningColor = `#F2AF29`;
 
 export const whiteColor = `#ffffff`;
+export const eeeeee = `#eeeeee`;
 export const rgbaColor = `rgba(0, 0, 0, 0.1)`;
