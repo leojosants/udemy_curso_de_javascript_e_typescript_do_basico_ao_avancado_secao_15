@@ -26,9 +26,13 @@ export default function Alunos() {
           <div key={String(aluno.id)}>
             <ProfilePicture>
               {get(aluno, 'Fotos[0].url', false) ? (
-                <img src={aluno.Fotos[0].url} alt="" />
+                <img
+                  src={aluno.Fotos[0].url}
+                  alt="Foto de perfil"
+                  title="Foto de perfil"
+                />
               ) : (
-                <FaUserCircle size={36} />
+                <FaUserCircle size={36} title="Foto de perfil" />
               )}
             </ProfilePicture>
 
@@ -36,10 +40,10 @@ export default function Alunos() {
             <span>{aluno.email}</span>
 
             <Link to={`/aluno/${aluno.id}/edit`}>
-              <FaEdit size={16} />
+              <FaEdit size={16} title="Editar" />
             </Link>
             <Link to={`/aluno/${aluno.id}/delete`}>
-              <FaWindowClose size={16} />
+              <FaWindowClose size={16} title="Deletar" />
             </Link>
           </div>
         ))}
