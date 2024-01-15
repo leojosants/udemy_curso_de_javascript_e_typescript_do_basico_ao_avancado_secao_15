@@ -9,7 +9,9 @@ export default function Loading({ isLoading }) {
   return (
     <Container>
       <div />
-      <span>Carregando...</span>
+      <span>
+        <i className="bx-burst">aguarde...</i>
+      </span>
     </Container>
   );
 }

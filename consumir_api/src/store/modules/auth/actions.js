@@ -16,7 +16,7 @@ export function loginSuccess(payload) {
 
 export function loginFailure(payload) {
   return {
-    type: types.BOTAO_CLICADO_FAILURE,
+    type: types.LOGIN_FAILURE,
     payload,
   };
 }
