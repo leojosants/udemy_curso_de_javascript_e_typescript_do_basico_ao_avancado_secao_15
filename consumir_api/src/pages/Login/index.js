@@ -52,7 +52,7 @@ export default function Login(props) {
           />
         </label>
         <label htmlFor="password">
-          E-mail:
+          Senha:
           <input
             type="text"
             id="password"
