@@ -10,3 +10,4 @@ export const sixSixff33 = `#66ff33`;
 export const infoColor = `#0197F6`;
 export const eeeeee = `#eeeeee`;
 export const dddddd = `#dddddd`;
+export const red = `#ff0000`;
